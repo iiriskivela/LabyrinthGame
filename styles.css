@@ -1,0 +1,65 @@
+.rules {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(88, 52, 124);
+}
+
+.green {
+    color: green;
+    display: inline-block;
+}
+
+.red {
+    color: red;
+    display: inline-block;
+}
+
+.remember {
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: rgb(246, 221, 243);
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    vertical-align:top;
+    background-color: white;
+}
+
+#x:hover {
+    background-color: green;
+}
+
+#o:hover {
+    background-color: red;
+}
+
+.border {
+    margin-bottom: 4px;
+}
+
+#start {
+    background-color: pink;
+    text-align: center;
+    line-height: 100px;
+}
+
+#exit .hidden-text {
+    display: none;
+}
+
+#exit:hover .hidden-text {
+    display: block;
+    background-color: pink;
+    text-align: center;
+    line-height: 100px;
+}
+
+form {
+    margin-bottom: 30px;
+}

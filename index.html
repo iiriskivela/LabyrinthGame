@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Game</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <div class="rules">
+            <h1>Hi there, welcome to play the LABYRINTH GAME!</h1>
+            <h3>RULES: walk step by step, <p class="green">GREEN</p> = okay, <p class="red">RED</p> = wrong way!</h3>
+            <p class="remember">If you come across a red block, start over. DON'T CHEAT!!</p>
+        </div>
+        <div class="border">
+            <div class="block" id="start">START</div>
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="o"></div>
+        </div>
+        <div class="border">
+            <div class="block" id="o"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="o"></div>
+        </div>
+        <div class="border">
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="o"></div>
+            <div class="block" id="x"></div>
+        </div>
+        <div class="border">
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="o"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="exit">
+                <span class="hidden-text">YOU WIN!</span>
+            </div>
+        </div>
+        <div class="border">
+            <div class="block" id="o"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="x"></div>
+            <div class="block" id="o"></div>
+        </div>
+        <form>
+            <p>Was it fun?</p>
+            <label>
+              <input type="radio" name="fun-or-not" value="fun1" checked>Yes
+            </label>
+            
+            <label>
+              <input type="radio" name="fun-or-not" value="fun1">No
+            </label>
+          </form>
+
+    </body>
+</html>
